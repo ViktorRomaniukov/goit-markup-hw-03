@@ -14,6 +14,7 @@ ul {
 
 ul {
   padding-left: 0;
+  list-style: none;
 }
 
 .container {
@@ -22,7 +23,33 @@ ul {
 }
 
 /* Styles header */
+.container-header,
+.container-nav,
+.linkaddress,
+.linknav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
 
+.logo {
+  width: 115px;
+  margin-right: 76px;
+}
+
+.linknav {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  margin: 24px 332px 24px 0;
+}
+
+.linkaddress {
+  gap: 40px;
+}
+
+/* Styles main */
 .banner {
   background-color: #2e2f42;
 }
