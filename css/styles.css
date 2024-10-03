@@ -4,6 +4,25 @@ body {
   background-color: #ffffff;
 }
 
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+}
+
+/* Styles header */
+
 .banner {
   background-color: #2e2f42;
 }
