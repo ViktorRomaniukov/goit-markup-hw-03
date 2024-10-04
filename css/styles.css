@@ -20,6 +20,7 @@ ul {
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Styles header */
@@ -33,6 +34,10 @@ ul {
   flex-direction: row;
 }
 
+.container-nav {
+  margin-left: 8px;
+}
+
 .logo {
   width: 115px;
   margin-right: 76px;
@@ -42,7 +47,7 @@ ul {
   align-items: flex-start;
   justify-content: flex-start;
   gap: 40px;
-  margin: 24px 332px 24px 0;
+  margin: 24px 320px 24px 0;
 }
 
 .linkaddress {
@@ -50,8 +55,17 @@ ul {
 }
 
 /* Styles main */
+/* Secnion Banner */
+
 .banner {
   background-color: #2e2f42;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
 
 .page-title {
@@ -61,6 +75,8 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  width: 496px;
+  margin-bottom: 48px;
 }
 
 .button {
@@ -71,6 +87,29 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+}
+
+/* Company activities */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 h2 {
@@ -83,12 +122,27 @@ h2 {
   text-align: center;
 }
 
+.menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
 .section-heading {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+
+/* Team Info */
+
+.info-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 a {
