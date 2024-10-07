@@ -66,6 +66,8 @@ ul {
   align-content: space-around;
   justify-content: center;
   align-items: center;
+  max-width: 1440px;
+  margin-bottom: 120px;
 }
 
 .page-title {
@@ -127,6 +129,7 @@ h2 {
   align-items: center;
   justify-content: center;
   gap: 8px;
+  margin-bottom: 120px;
 }
 
 .section-heading {
@@ -135,14 +138,36 @@ h2 {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 /* Team Info */
+
+.employees {
+  background-color: #f4f4fd;
+  height: 732px;
+  padding-top: 120px;
+  margin-bottom: 120px;
+}
+
+.menu-title {
+  margin-bottom: 72px;
+}
 
 .info-list {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  gap: 32px;
+}
+
+.gallery .text {
+  margin-bottom: 32px;
+}
+
+.img-gallery-info-list {
+  margin-bottom: 32px;
 }
 
 a {
@@ -172,17 +197,63 @@ a {
 
 .gallery {
   background-color: #ffffff;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  border-radius: 0 0 4px 4px;
 }
 
-.employees {
-  background-color: #f4f4fd;
+/* Portfolio */
+
+.portfolio > h2 {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.conteiner-portfolio {
+  margin-bottom: 120px;
+}
+
+.portfolio-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.portfolio-list li {
+  margin-bottom: 48px;
+
+  width: calc((100% - 48px) / 3);
+}
+
+.conteiner-portfolio-list {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  margin-top: -5px;
+  padding-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+/* Global styles */
 
 .link:hover,
 .link:focus,
 .link-address a:hover,
 .link-address a:focus {
   color: #404bbf;
+}
+
+/* Lower level */
+
+footer > .container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.container > .logo {
+  margin-bottom: 16px;
 }
 
 button:hover,
@@ -192,6 +263,7 @@ button:focus {
 
 footer {
   background-color: #2e2f42;
+  height: 312px;
 }
 
 .text-footer {
