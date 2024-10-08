@@ -19,6 +19,10 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -34,18 +38,26 @@ ul {
 
 /* Styles header */
 
+.header-section {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .container-header,
 .container-nav,
 .linkaddress,
 .linknav {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-direction: row;
 }
 
 .container-nav {
   margin-left: 8px;
+}
+
+.link-address {
+  margin-right: 8px;
 }
 
 .logo {
@@ -54,10 +66,8 @@ ul {
 }
 
 .linknav {
-  align-items: flex-start;
-  justify-content: flex-start;
   gap: 40px;
-  margin: 24px 320px 24px 0;
+  padding: 24px 0;
 }
 
 .linkaddress {
@@ -69,15 +79,18 @@ ul {
 /* Secnion Banner */
 
 .banner {
+  padding: 188px 0;
   background-color: #2e2f42;
   height: 600px;
+}
+
+.banner-conteiner {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: space-around;
   justify-content: center;
   align-items: center;
-  max-width: 1440px;
   margin-bottom: 120px;
 }
 
@@ -105,11 +118,11 @@ ul {
   justify-content: center;
   flex-direction: row;
   gap: 10px;
+  border: none;
   border-radius: 4px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
 }
 
 /* Company activities */
