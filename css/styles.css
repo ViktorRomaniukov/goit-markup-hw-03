@@ -52,25 +52,22 @@ img {
   flex-direction: row;
 }
 
+.link,
+.container-nav .logo {
+  padding: 24px 0;
+}
+
 .container-nav {
-  margin-left: 8px;
+  padding-left: 8px;
+  gap: 76px;
 }
 
 .link-address {
-  margin-right: 8px;
-}
-
-.logo {
-  width: 115px;
-  margin-right: 76px;
+  padding-right: 8px;
 }
 
 .linknav {
   gap: 40px;
-}
-
-ul .list-link-nav {
-  padding: 24px 0;
 }
 
 .linkaddress {
@@ -236,7 +233,7 @@ a {
   padding: 120px 0;
 }
 
-.portfolio-conteiner>h2 {
+.portfolio-conteiner > h2 {
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -271,12 +268,12 @@ a {
   height: 312px;
 }
 
-.page-footer>.container {
+.page-footer > .container {
   display: flex;
   flex-direction: column;
 }
 
-.container>.logo {
+.container > .logo {
   margin-bottom: 16px;
   display: inline-block;
 }
