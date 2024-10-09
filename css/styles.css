@@ -276,7 +276,7 @@ a {
   flex-direction: column;
 }
 
-.container > .logo {
+.container .logo-link {
   margin-bottom: 16px;
   display: inline-block;
 }
