@@ -271,14 +271,8 @@ a {
   height: 312px;
 }
 
-.page-footer > .container {
-  display: flex;
-  flex-direction: column;
-}
-
 .container .logo-link {
   margin-bottom: 16px;
-  display: inline-block;
 }
 
 button:hover,
