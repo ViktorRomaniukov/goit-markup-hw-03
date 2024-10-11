@@ -88,12 +88,6 @@ img {
 }
 
 .banner-conteiner {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: space-around;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 120px;
 }
 
@@ -105,7 +99,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   max-width: 496px;
-  margin-bottom: 48px;
+  margin: 0 auto 48px;
 }
 
 .button {
@@ -118,6 +112,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   border: none;
+  margin: 0 auto;
   border-radius: 4px;
   min-width: 169px;
   height: 56px;
@@ -160,7 +155,6 @@ h2 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .menu-list {
